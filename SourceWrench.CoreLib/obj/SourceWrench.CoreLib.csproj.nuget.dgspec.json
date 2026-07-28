@@ -1,0 +1,93 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/slnx/SourceWrench/SourceWrench.CoreLib/SourceWrench.CoreLib.csproj": {}
+  },
+  "projects": {
+    "/home/slnx/SourceWrench/SourceWrench.CoreLib/SourceWrench.CoreLib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/slnx/SourceWrench/SourceWrench.CoreLib/SourceWrench.CoreLib.csproj",
+        "projectName": "SourceWrench.CoreLib",
+        "projectPath": "/home/slnx/SourceWrench/SourceWrench.CoreLib/SourceWrench.CoreLib.csproj",
+        "packagesPath": "/home/slnx/.nuget/packages/",
+        "outputPath": "/home/slnx/SourceWrench/SourceWrench.CoreLib/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/slnx/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "framework": "net8.0",
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "framework": "net8.0",
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "NAudio": {
+              "target": "Package",
+              "version": "[2.2.1, )"
+            },
+            "ValvePak": {
+              "target": "Package",
+              "version": "[4.0.0.142, )"
+            },
+            "ValveResourceFormat": {
+              "target": "Package",
+              "version": "[5.0.2120, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.28, 8.0.28]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.28, 8.0.28]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
